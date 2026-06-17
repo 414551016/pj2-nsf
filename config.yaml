@@ -1,0 +1,8 @@
+nsf:
+  sbi_address: "0.0.0.0"
+  sbi_port: 8000
+
+  db_type: "bbolt"
+
+logger:
+  level: "info"
