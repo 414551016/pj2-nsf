@@ -62,3 +62,12 @@ NSF_MONGO_DATABASE=nsf_api_test python3 scripts/test_api.py --db mongodb
 The additional checks cover group discovery, partial deregistration, shared
 services, unknown services, graceful restart and abrupt process termination.
 They are supplementary checks, not the TA's hidden tests.
+
+## Observed validation (2026-10-20)
+
+Official Docker tester: 11 PASS / 0 FAIL (1,000 NFs, 5,590 services).
+Supplemental HTTP checks: 14 PASS / 0 FAIL on each of bbolt and MongoDB.
+MongoDB database contract tests and service-context race tests passed.
+The recorded demonstration confirms MongoDB CLI contents and restart recovery.
+These results do not claim that unpublished TA hidden tests have been run.
+
