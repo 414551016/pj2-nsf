@@ -121,3 +121,9 @@ There are `TODO` keywords at sections that you need to implement. So, you can tr
         Services []NnsfDiscGetResponse `json:"services"`
     }
     ```
+
+## Implementation and verification notes
+
+See [IMPLEMENTATION.md](IMPLEMENTATION.md) for persistence design, MongoDB configuration, and reproducible supplemental HTTP tests.
+The original push and pull-request checks remain enabled; each workflow also supports manual verification from Actions.
+
