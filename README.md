@@ -127,3 +127,11 @@ There are `TODO` keywords at sections that you need to implement. So, you can tr
 See [IMPLEMENTATION.md](IMPLEMENTATION.md) for persistence design, MongoDB configuration, and reproducible supplemental HTTP tests.
 The original push and pull-request checks remain enabled; each workflow also supports manual verification from Actions.
 
+
+### Enable Actions after forking
+
+Open the fork's **Actions** tab and, if GitHub displays the fork-workflow notice,
+click **I understand my workflows, go ahead and enable them**. Then a normal
+commit pushed to `main` should create the three workflow runs. Check their commit
+SHA and event type instead of treating a successful manual run as proof of an
+automatic push trigger.
